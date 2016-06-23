@@ -1,0 +1,23 @@
+Vim related: 
+1) :%s/fun/amazing/g
+   :%s/fun/amazing
+
+Unix:
+2) mkdir -p /fooDir/barDir
+3) ls *.html *.txt
+   - This command would list all the files that had .html or .txt as
+     their extentions
+4) gvim -p *.java
+
+Java: 
+5) It means that the method can be accessed without creating an 
+instance of the class it is in. You can call the method without
+having to create an object and call it on the object. 
+Example: calling the method toString(int x) on the class Integer
+i.e. Integer.toString(int x) without creating an Integer object. 
+
+6) A better way would be to create an abstract parent class called 
+Shape that had the main methods all shapes could use to draw 
+or color themselves. Then to create a separate child class for each 
+distinct shape that would define the methods from the parent class
+in the way that would suit that particular shape the best. 
